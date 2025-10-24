@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card - Khadija Khalid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+      <article class="profile-card" data-testid="test-profile-card">
+        <header>
+          <figure class="avatar">
+            <img
+              src="https://avatars.githubusercontent.com/u/198496954?v=4"
+              alt="Profile picture of Khadija Khalid"
+              data-testid="test-user-avatar"
+            />
+          </figure>
+          <h2 data-testid="test-user-name">Khadija Khalid</h2>
+          <p data-testid="test-user-bio">
+            Computer Engineering student at Ahmadu Bello University, Zaria —
+            passionate about Artificial Intelligence, Web Development, and
+            Community Building.
+          </p>
+        </header>
+
+        <p class="time">
+          Current Time (ms):
+          <span data-testid="test-user-time" id="time"></span>
+        </p>
+
+        <nav class="social-links" data-testid="test-user-social-links">
+          <ul>
+            <li>
+              <a
+                href="https://github.com/khadijakhalid8033"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-github"
+                >GitHub</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/khadija-khalid-2645a627b"
+                target="_blank"
+                rel="noopener noreferrer"
+                data-testid="test-user-social-linkedin"
+                >LinkedIn</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <section class="hobbies" data-testid="test-user-hobbies">
+          <h3>Hobbies</h3>
+          <ul>
+            <li>Building AI Projects</li>
+            <li>Teaching Kids Tech</li>
+            <li>Reading about Neuroscience</li>
+          </ul>
+        </section>
+
+        <section class="dislikes" data-testid="test-user-dislikes">
+          <h3>Dislikes</h3>
+          <ul>
+            <li>Procrastination</li>
+            <li>Poor documentation</li>
+            <li>Unclear project goals</li>
+          </ul>
+        </section>
+      </article>
+    </main>
+    <script src="script.js"></script>
+    
+</body>
+</html>
